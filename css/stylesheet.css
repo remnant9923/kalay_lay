@@ -1,6 +1,20 @@
 @font-face {
 	font-family: 'Happy';
+	src: url('../assets/fonts/Happy.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SweetToffee';
 	src: url('../assets/fonts/Sweet-Toffee.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halloween';
+	src: url('../assets/fonts/Halloween.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1655,7 +1669,6 @@ audio {
 		width: 140px !important;
 		height: auto !important;
 		position: absolute !important;
-		display: block !important;
 	}
 
 	/* Top Row */

@@ -1,6 +1,7 @@
 $(window).load(function () {
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
+	// keep album photos hidden until user clicks "Let’s Decorate"
 });
 $('document').ready(function () {
 	var vw;
@@ -50,7 +51,7 @@ $('document').ready(function () {
 		$(this).fadeOut('slow').delay(6000).promise().done(function () {
 			$('#balloons_flying').fadeIn('slow');
 
-			// Show the album photos
+			// reveal album photos when banner arrives
 			$('.album-photo').fadeIn('slow');
 
 			$('.can-zoom').fadeIn('slow');
